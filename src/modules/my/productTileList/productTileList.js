@@ -24,324 +24,174 @@ export default class ProductTileList extends LightningElement {
             "records": [
               {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvZEAW"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef1"
                 },
-                "Id": "a1Oa5000000BLvZEAW",
-                "Name": "FUSE X1",
-                "MSRP__c": 2500,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Commuter",
-                "Level__c": "Beginner",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/fusex1.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Air spring",
-                "Front_Brakes__c": "Dual-pivot caliper brake",
-                "Rear_Brakes__c": "Dual-pivot caliper brake",
-                "Battery__c": "401Wh",
-                "Charger__c": "41V4A",
-                "Motor__c": "251 watt, 75Nm"
-              },
-              {
+                "Activity_Level__c": "Low",
+                "Capacity__c": 25,
+                "CreatedDate": "2024-03-21T03:03:13.000+0000",
+                "Default_Start_Time__c": "16:00:00.000Z",
+                "Description__c": "Swim alongside colorful marine life in our coral-rich tropical waters on this guided snorkeling tour.",
+                "Duration_Hours__c": 4,
+                "Location__c": "Coral Reef",
+                "Name": "Tropical Snorkel Adventure",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 199,
+                "Type__c": "Beaches & Snorkeling"
+            },
+            {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvaEAG"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef2"
                 },
-                "Id": "a1Oa5000000BLvaEAG",
-                "Name": "FUSE X2",
-                "MSRP__c": 2600,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Commuter",
-                "Level__c": "Beginner",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/fusex2.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Air spring",
-                "Front_Brakes__c": "Dual-pivot caliper brake",
-                "Rear_Brakes__c": "Dual-pivot caliper brake",
-                "Battery__c": "402Wh",
-                "Charger__c": "42V4A",
-                "Motor__c": "252 watt, 75Nm"
-              },
-              {
+                "Activity_Level__c": "High",
+                "Capacity__c": 45,
+                "CreatedDate": "2024-03-21T03:01:07.000+0000",
+                "Default_Start_Time__c": "13:00:00.000Z",
+                "Description__c": "Soar over deep canyons and lush forest canopies on our thrilling zip line tour.",
+                "Duration_Hours__c": 3.5,
+                "Location__c": "Canyons & Forests",
+                "Name": "Canyon Zip Line Excursion",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 150,
+                "Type__c": "Adventure Activities"
+            },
+            {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvbEAG"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef3"
                 },
-                "Id": "a1Oa5000000BLvbEAG",
-                "Name": "FUSE X3",
-                "MSRP__c": 2700,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Commuter",
-                "Level__c": "Beginner",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/fusex3.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Air spring",
-                "Front_Brakes__c": "Dual-pivot caliper brake",
-                "Rear_Brakes__c": "Dual-pivot caliper brake",
-                "Battery__c": "403Wh",
-                "Charger__c": "43V4A",
-                "Motor__c": "253 watt, 75Nm"
-              },
-              {
+                "Activity_Level__c": "Low",
+                "Capacity__c": 30,
+                "CreatedDate": "2024-03-21T23:48:18.000+0000",
+                "Default_Start_Time__c": "10:00:00.000Z",
+                "Description__c": "Join our guided meditation sessions in the tranquil serenity garden, designed to promote peace and mindfulness.",
+                "Duration_Hours__c": 2,
+                "Location__c": "Serenity Garden",
+                "Name": "Serenity Garden Meditation",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 55,
+                "Type__c": "Relaxation & Quiet Zones"
+            },
+            {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvcEAG"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef4"
                 },
-                "Id": "a1Oa5000000BLvcEAG",
-                "Name": "FUSE X4",
-                "MSRP__c": 2800,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Commuter",
-                "Level__c": "Beginner",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/fusex4.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Air spring",
-                "Front_Brakes__c": "Dual-pivot caliper brake",
-                "Rear_Brakes__c": "Dual-pivot caliper brake",
-                "Battery__c": "404Wh",
-                "Charger__c": "44V4A",
-                "Motor__c": "254 watt, 75Nm"
-              },
-              {
+                "Activity_Level__c": "Low",
+                "Capacity__c": 100,
+                "CreatedDate": "2024-03-21T23:48:18.000+0000",
+                "Default_Start_Time__c": "21:00:00.000Z",
+                "Description__c": "Enjoy classic films and latest blockbusters at our outdoor cinema, complete with gourmet popcorn and cozy seating.",
+                "Duration_Hours__c": 6,
+                "Location__c": "Outdoor Cinema Area",
+                "Name": "Outdoor Movie Night",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 199,
+                "Type__c": "Nightlife & Entertainment"
+            },
+            {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvdEAG"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef5"
                 },
-                "Id": "a1Oa5000000BLvdEAG",
-                "Name": "DYNAMO X1",
-                "MSRP__c": 7000,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Mountain",
-                "Level__c": "Racer",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/dynamox1.jpg",
-                "Material__c": "Carbon",
-                "Fork__c": "Air spring, adjustable rebound",
-                "Front_Brakes__c": "Hydraulic disc, 200mm",
-                "Rear_Brakes__c": "Hydraulic disc, 200mm",
-                "Battery__c": "501Wh",
-                "Charger__c": "41V4A",
-                "Motor__c": "281 watt, 75Nm"
-              },
-              {
+                "Activity_Level__c": "Low",
+                "Capacity__c": 20,
+                "CreatedDate": "2024-03-21T23:48:18.000+0000",
+                "Default_Start_Time__c": "16:00:00.000Z",
+                "Description__c": "Escape with a book in our oceanview reading nooks, offering a quiet space to relax with stunning views.",
+                "Duration_Hours__c": 3,
+                "Location__c": "Library Overlooking the Ocean",
+                "Name": "Oceanview Reading Nook",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 250,
+                "Type__c": "Relaxation & Quiet Zones"
+            },
+            {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLveEAG"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef6"
                 },
-                "Id": "a1Oa5000000BLveEAG",
-                "Name": "DYNAMO X2",
-                "MSRP__c": 7200,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Mountain",
-                "Level__c": "Racer",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/dynamox2.jpg",
-                "Material__c": "Carbon",
-                "Fork__c": "Air spring, adjustable rebound",
-                "Front_Brakes__c": "Hydraulic disc, 200mm",
-                "Rear_Brakes__c": "Hydraulic disc, 200mm",
-                "Battery__c": "502Wh",
-                "Charger__c": "42V4A",
-                "Motor__c": "282 watt, 75Nm"
-              },
-              {
+                "Activity_Level__c": "Low",
+                "Capacity__c": 55,
+                "CreatedDate": "2024-03-21T23:48:18.000+0000",
+                "Default_Start_Time__c": "10:30:00.000Z",
+                "Description__c": "Greet the day with Tai Chi, a gentle exercise focusing on relaxation, held on our peaceful beachfront at sunrise.",
+                "Duration_Hours__c": 1,
+                "Location__c": "Beachfront",
+                "Name": "Sunrise Tai Chi",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 150,
+                "Type__c": "Relaxation & Quiet Zones"
+            },
+            {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvfEAG"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef7"
                 },
-                "Id": "a1Oa5000000BLvfEAG",
-                "Name": "DYNAMO X3",
-                "MSRP__c": 7400,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Mountain",
-                "Level__c": "Racer",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/dynamox3.jpg",
-                "Material__c": "Carbon",
-                "Fork__c": "Air spring, adjustable rebound",
-                "Front_Brakes__c": "Hydraulic disc, 200mm",
-                "Rear_Brakes__c": "Hydraulic disc, 200mm",
-                "Battery__c": "503Wh",
-                "Charger__c": "43V4A",
-                "Motor__c": "283 watt, 75Nm"
-              },
-              {
+                "Activity_Level__c": "Low",
+                "Capacity__c": 35,
+                "CreatedDate": "2024-03-21T23:48:18.000+0000",
+                "Default_Start_Time__c": "17:00:00.000Z",
+                "Description__c": "Soak in our natural thermal springs, known for their healing properties and a perfect way to rejuvenate body and mind.",
+                "Duration_Hours__c": 5,
+                "Location__c": "Thermal Springs Area",
+                "Name": "Thermal Spring Rejuvenation",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 45,
+                "Type__c": "Spa & Wellness"
+            },
+            {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvgEAG"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef8"
                 },
-                "Id": "a1Oa5000000BLvgEAG",
-                "Name": "DYNAMO X4",
-                "MSRP__c": 7800,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Mountain",
-                "Level__c": "Racer",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/dynamox4.jpg",
-                "Material__c": "Carbon",
-                "Fork__c": "Air spring, adjustable rebound",
-                "Front_Brakes__c": "Hydraulic disc, 200mm",
-                "Rear_Brakes__c": "Hydraulic disc, 200mm",
-                "Battery__c": "504Wh",
-                "Charger__c": "44V4A",
-                "Motor__c": "284 watt, 75Nm"
-              },
-              {
+                "Activity_Level__c": "Low",
+                "Capacity__c": 55,
+                "CreatedDate": "2024-03-21T23:48:18.000+0000",
+                "Default_Start_Time__c": "16:30:00.000Z",
+                "Description__c": "Experience a day of pampering with treatments that blend modern techniques with traditional holistic practices.",
+                "Duration_Hours__c": 1,
+                "Location__c": "Resort Spa",
+                "Name": "Holistic Spa Retreat",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 25,
+                "Type__c": "Spa & Wellness"
+            },
+            {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvhEAG"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef9"
                 },
-                "Id": "a1Oa5000000BLvhEAG",
-                "Name": "ELECTRA X1",
-                "MSRP__c": 4000,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Mountain",
-                "Level__c": "Enthusiast",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/electrax1.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Air spring, adjustable rebound",
-                "Front_Brakes__c": "Hydraulic disc, 200mm",
-                "Rear_Brakes__c": "Hydraulic disc, 200mm",
-                "Battery__c": "501Wh",
-                "Charger__c": "41V4A",
-                "Motor__c": "251 watt, 75Nm"
-              },
-              {
+                "Activity_Level__c": "Low",
+                "Capacity__c": 80,
+                "CreatedDate": "2024-03-21T23:48:18.000+0000",
+                "Default_Start_Time__c": "14:00:00.000Z",
+                "Description__c": "Participate in workshops focusing on wellness topics, from nutrition to stress management, led by expert practitioners.",
+                "Duration_Hours__c": 3,
+                "Location__c": "Wellness Center",
+                "Name": "Wellness Workshops",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 149,
+                "Type__c": "Spa & Wellness"
+            },
+            {
                 "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLviEAG"
+                    "type": "Experience__c",
+                    "referenceId": "Experience__cRef10"
                 },
-                "Id": "a1Oa5000000BLviEAG",
-                "Name": "ELECTRA X2",
-                "MSRP__c": 4300,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Mountain",
-                "Level__c": "Enthusiast",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/electrax2.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Air spring, adjustable rebound",
-                "Front_Brakes__c": "Hydraulic disc, 200mm",
-                "Rear_Brakes__c": "Hydraulic disc, 200mm",
-                "Battery__c": "502Wh",
-                "Charger__c": "42V4A",
-                "Motor__c": "252 watt, 75Nm"
-              },
-              {
-                "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvjEAG"
-                },
-                "Id": "a1Oa5000000BLvjEAG",
-                "Name": "ELECTRA X3",
-                "MSRP__c": 4600,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Mountain",
-                "Level__c": "Enthusiast",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/electrax3.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Air spring, adjustable rebound",
-                "Front_Brakes__c": "Hydraulic disc, 200mm",
-                "Rear_Brakes__c": "Hydraulic disc, 200mm",
-                "Battery__c": "503Wh",
-                "Charger__c": "43V4A",
-                "Motor__c": "253 watt, 75Nm"
-              },
-              {
-                "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvkEAG"
-                },
-                "Id": "a1Oa5000000BLvkEAG",
-                "Name": "ELECTRA X4",
-                "MSRP__c": 4900,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Mountain",
-                "Level__c": "Enthusiast",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/electrax4.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Air spring, adjustable rebound",
-                "Front_Brakes__c": "Hydraulic disc, 200mm",
-                "Rear_Brakes__c": "Hydraulic disc, 200mm",
-                "Battery__c": "504Wh",
-                "Charger__c": "44V4A",
-                "Motor__c": "254 watt, 75Nm"
-              },
-              {
-                "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvlEAG"
-                },
-                "Id": "a1Oa5000000BLvlEAG",
-                "Name": "VOLT X1",
-                "MSRP__c": 1200,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Commuter",
-                "Level__c": "Beginner",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/voltx1.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Foldable",
-                "Front_Brakes__c": "Centre-pull caliper brake",
-                "Rear_Brakes__c": "Centre-pull caliper brake",
-                "Battery__c": "300Wh",
-                "Charger__c": "21V4A",
-                "Motor__c": "251 watt, 75Nm"
-              },
-              {
-                "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvmEAG"
-                },
-                "Id": "a1Oa5000000BLvmEAG",
-                "Name": "VOLT X2",
-                "MSRP__c": 1400,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Commuter",
-                "Level__c": "Beginner",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/voltx2.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Foldable",
-                "Front_Brakes__c": "Centre-pull caliper brake",
-                "Rear_Brakes__c": "Centre-pull caliper brake",
-                "Battery__c": "300Wh",
-                "Charger__c": "42V4A",
-                "Motor__c": "252 watt, 75Nm"
-              },
-              {
-                "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvnEAG"
-                },
-                "Id": "a1Oa5000000BLvnEAG",
-                "Name": "VOLT X3",
-                "MSRP__c": 1800,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Commuter",
-                "Level__c": "Beginner",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/voltx3.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Foldable",
-                "Front_Brakes__c": "Centre-pull caliper brake",
-                "Rear_Brakes__c": "Centre-pull caliper brake",
-                "Battery__c": "300Wh",
-                "Charger__c": "23V4A",
-                "Motor__c": "253 watt, 75Nm"
-              },
-              {
-                "attributes": {
-                  "type": "Product__c",
-                  "url": "/services/data/v42.0/sobjects/Product__c/a1Oa5000000BLvoEAG"
-                },
-                "Id": "a1Oa5000000BLvoEAG",
-                "Name": "VOLT X4",
-                "MSRP__c": 1900,
-                "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Category__c": "Commuter",
-                "Level__c": "Beginner",
-                "Picture_URL__c": "https://s3-us-west-2.amazonaws.com/dev-or-devrl-s3-bucket/sample-apps/ebikes/voltx4.jpg",
-                "Material__c": "Aluminum",
-                "Fork__c": "Foldable",
-                "Front_Brakes__c": "Centre-pull caliper brake",
-                "Rear_Brakes__c": "Centre-pull caliper brake",
-                "Battery__c": "300Wh",
-                "Charger__c": "24V4A",
-                "Motor__c": "254 watt, 75Nm"
-              }
+                "Activity_Level__c": "Low",
+                "Capacity__c": 50,
+                "CreatedDate": "2024-03-21T23:48:18.000+0000",
+                "Default_Start_Time__c": "12:00:00.000Z",
+                "Description__c": "Relax in our infinity pool that merges seamlessly with the horizon, featuring underwater music and poolside service.",
+                "Duration_Hours__c": 1,
+                "Location__c": "Infinity Pool",
+                "Name": "Infinity Pool Lounge",
+                "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
+                "Price__c": 50,
+                "Type__c": "Swimming Pools"
+            },
             ]
         };
         

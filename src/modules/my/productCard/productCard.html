@@ -1,7 +1,7 @@
 <template>
     <lightning-card icon-name="standard:apex_plugin">
         <template lwc:if={selectedProduct}>
-            <span slot="title">{productName}</span>
+            <span slot="title">{selectedProduct.Name}</span>
             
             <div class="slds-var-m-horizontal_medium">
                 <img
@@ -11,70 +11,41 @@
                 />
 
                 <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">Category</span>
+                    <span class="slds-form-element__label">Description</span>
                     <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.Category__c}</div>
+                        <div class="slds-form-element__static">{selectedProduct.Description__c}</div>
                     </div>
                 </div>
 
                 <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">Level</span>
+                    <span class="slds-form-element__label">Price</span>
                     <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.Level__c}</div>
+                        <div class="slds-form-element__static">{selectedProduct.Price__c}</div>
                     </div>
                 </div>
 
                 <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">MSRP</span>
+                    <span class="slds-form-element__label">Duration</span>
                     <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.MSRP__c}</div>
-                    </div>
-                </div>
-
-                <section>Electric Components</section>
-                <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">Battery</span>
-                    <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.Battery__c}</div>
+                        <div class="slds-form-element__static">{selectedProduct.Duration_Hours__c} hours</div>
                     </div>
                 </div>
                 <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">Charger</span>
+                    <span class="slds-form-element__label">Location</span>
                     <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.Charger__c}</div>
+                        <div class="slds-form-element__static">{selectedProduct.Location__c}</div>
                     </div>
                 </div>
                 <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">Motor</span>
+                    <span class="slds-form-element__label">Capacity</span>
                     <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.Motor__c}</div>
-                    </div>
-                </div>
-                <section>Frame</section>
-                <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">Material</span>
-                    <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.Material__c}</div>
+                        <div class="slds-form-element__static">{selectedProduct.Capacity__c}</div>
                     </div>
                 </div>
                 <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">Fork</span>
+                    <span class="slds-form-element__label">Physical Activity Level</span>
                     <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.Fork__c}</div>
-                    </div>
-                </div>
-
-                <section>Brakes</section>
-                <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">Front Brakes</span>
-                    <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.Front_Brakes__c}</div>
-                    </div>
-                </div>
-                <div class="slds-form-element slds-form-element_readonly">
-                    <span class="slds-form-element__label">Rear Brakes</span>
-                    <div class="slds-form-element__control">
-                        <div class="slds-form-element__static">{selectedProduct.Rear_Brakes__c}</div>
+                        <div class="slds-form-element__static">{selectedProduct.Activity_Level__c}</div>
                     </div>
                 </div>
             </div>
@@ -82,7 +53,7 @@
 
         <template lwc:else>
             <div class="slds-text-align_center slds-m-bottom_large">
-                Please select a product to view details
+                Please select an experience to view details
             </div>
         </template>
     </lightning-card>
