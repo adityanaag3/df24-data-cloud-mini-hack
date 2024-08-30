@@ -1,6 +1,6 @@
-# Basic E-Bikes Website for Mini Hacks
+# Basic Website for DF24 Mini Hacks
 
-This is a sample website built using LWR that shows a list of electric bikes supplied by E-Bikes. You must now add **Data Cloud Interactions Web SDK** to this website.
+This is a sample website built using LWR that shows a list of experiences offered by Coral Cloud Resorts. You must now add **Data Cloud Interactions Web SDK** to this website.
 
 ## Running the Project in dev Mode
 
