@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+        <title>E-Bikes LWR + Data Cloud Web SDK</title>
+
+        <!-- Point to SLDS stylesheet -->
+        <link rel="stylesheet" href="$assetsDir/styles/salesforce-lightning-design-system.css" />
+        <style>
+            footer{
+                border-top: 1px solid #eee;
+                background: white;
+            }
+        </style>
+        
+        <!-- WEB SDK SCRIPT TAG GOES HERE -->
+
+        <script>
+            <!-- CODE FOR INIT SCRIPT GOES HERE -->
+        </script>
+    </head>
+    <body>
+        {{ body | safe }}
+        {{ lwr_resources | safe }}
+        <footer class="slds-text-align_center slds-p-around_small">
+            <a target="_blank" name="LWR Documentation" href="https://developer.salesforce.com/docs/platform/lwr/guide/lwr-get-started.html">Built using Lightning Web Runtime for Node.js</a>
+        </footer>
+    </body>
+</html>
