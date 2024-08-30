@@ -37,7 +37,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Tropical Snorkel Adventure",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 199,
-                "Type__c": "Beaches & Snorkeling"
+                "Type__c": "Beaches & Snorkeling",
+                "Id": "a03kn000001bhAgy"
             },
             {
                 "attributes": {
@@ -54,7 +55,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Canyon Zip Line Excursion",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 150,
-                "Type__c": "Adventure Activities"
+                "Type__c": "Adventure Activities",
+                "Id": "a03kn000002bhAgy"
             },
             {
                 "attributes": {
@@ -71,7 +73,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Serenity Garden Meditation",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 55,
-                "Type__c": "Relaxation & Quiet Zones"
+                "Type__c": "Relaxation & Quiet Zones",
+                "Id": "a03kn000003bhAgy"
             },
             {
                 "attributes": {
@@ -88,7 +91,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Outdoor Movie Night",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 199,
-                "Type__c": "Nightlife & Entertainment"
+                "Type__c": "Nightlife & Entertainment",
+                "Id": "a03kn000004bhAgy"
             },
             {
                 "attributes": {
@@ -105,7 +109,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Oceanview Reading Nook",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 250,
-                "Type__c": "Relaxation & Quiet Zones"
+                "Type__c": "Relaxation & Quiet Zones",
+                "Id": "a03kn000005bhAgy"
             },
             {
                 "attributes": {
@@ -122,7 +127,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Sunrise Tai Chi",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 150,
-                "Type__c": "Relaxation & Quiet Zones"
+                "Type__c": "Relaxation & Quiet Zones",
+                "Id": "a03kn000006bhAgy"
             },
             {
                 "attributes": {
@@ -139,7 +145,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Thermal Spring Rejuvenation",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 45,
-                "Type__c": "Spa & Wellness"
+                "Type__c": "Spa & Wellness",
+                "Id": "a03kn000007bhAgy"
             },
             {
                 "attributes": {
@@ -156,7 +163,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Holistic Spa Retreat",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 25,
-                "Type__c": "Spa & Wellness"
+                "Type__c": "Spa & Wellness",
+                "Id": "a03kn000008bhAgy"
             },
             {
                 "attributes": {
@@ -173,7 +181,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Wellness Workshops",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 149,
-                "Type__c": "Spa & Wellness"
+                "Type__c": "Spa & Wellness",
+                "Id": "a03kn000009bhAgy"
             },
             {
                 "attributes": {
@@ -190,7 +199,8 @@ export default class ProductTileList extends LightningElement {
                 "Name": "Infinity Pool Lounge",
                 "Picture_URL__c": "https://res.cloudinary.com/btahub/image/upload/v1709063519/wftuwsl4rbsvf7y9rnzs.jpg",
                 "Price__c": 50,
-                "Type__c": "Swimming Pools"
+                "Type__c": "Swimming Pools",
+                "Id": "a03kn000010bhAgy"
             },
             ]
         };
